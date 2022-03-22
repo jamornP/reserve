@@ -2,7 +2,7 @@
     "name": "jamorn.pe/reserve",
     "autoload": {
         "psr-4": {
-            "JamornPe\\Reserve\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [{
@@ -11,10 +11,5 @@
     }],
     "require": {
         "claviska/simpleimage": "^3.6"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
     }
 }
