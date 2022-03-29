@@ -41,6 +41,11 @@
                                         echo "
                                             <tr>
                                                 <td>{$n}</td>
+                                                <td>{$reserve['t_id']}</td>
+                                                <td>{$reserve['staff_name']}</td>
+                                                <td>{$reserve['start_date']}</td>
+                                                <td>{$reserve['end_date']}</td>
+                                                <td>{$reserve['statu']}</td>
                                             </tr>
                                         ";
                                     }

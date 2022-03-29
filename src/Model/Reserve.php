@@ -5,7 +5,7 @@ use App\Database\Db;
 
 class Reserve extends Db {
 
-    public function getAllManager(){
+    public function getAllReserve(){
         $sql ="
             SELECT * FROM tb_bookreserve
         ";
